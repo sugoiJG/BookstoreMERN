@@ -1,11 +1,7 @@
-import express from 'express';
-import { Book } from '../models/bookModel.js';
+import express from "express";
+import { Book } from "../models/bookModel.js";
 
 const router = express.Router();
-
-
-
-
 
 // Route for Save new Book
 router.post("/", async (request, response) => {
